@@ -31,3 +31,4 @@ let g:airline#extensions#tabline#enabled = 1
 set number
 set laststatus=2
 syntax enable
+
