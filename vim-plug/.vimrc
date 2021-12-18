@@ -190,6 +190,9 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+"typescript-vim 설정
+let g:typescript_indent_disable = 1
+
 " 기본 설정
 set number
 set laststatus=2
