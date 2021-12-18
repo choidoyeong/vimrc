@@ -1,4 +1,4 @@
-" vim plug 사용
+" vim plug 사용(따로 설치 필요)
 call plug#begin('~/.vim/plugged')
 " 설치한 플러그인
 Plug 'NLKNguyen/papercolor-theme'
@@ -193,8 +193,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " 기본 설정
 set number
 set laststatus=2
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 syntax enable
 
